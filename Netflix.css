@@ -1,0 +1,364 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.part1{
+    background-image: url("Images/Header_Background.jpg");
+    background-position: center;
+    height: 800px;
+}
+
+.header{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width:170px;
+}
+
+.form{
+    display: flex;
+    gap: 20px;
+}
+
+#lang{
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5%;
+    font-size: 20px;
+    background: transparent;
+    color: aliceblue;
+    background-image: url("Images/Language_icon.svg");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 9px;
+    border-radius: 8px;
+}
+
+option{
+    color: black;
+}
+
+#signin{
+    background-color: red;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5%;
+    border-radius: 8px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:700px;
+}
+
+#text11{
+    font-weight: 900;
+    font-size: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+#text21, #text22{
+    font-size: 22px;
+    margin: 10px;
+    text-align: center;
+}
+
+.email-form{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#email{
+    height:50px;
+    width: 500px;
+    background: hsla(0, 2%, 39%, 0.2);
+    border: 2px solid rgb(72, 72, 72);
+}
+
+.email ::placeholder{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    color: aliceblue;
+}
+
+#get-started{
+    height: 50px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    background-color: red;
+    color: aliceblue;
+    background-image: url("Images/Right-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: 110px;
+    background-size: 30px;
+}
+
+.part2, .part3, .part4, .part5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 700px;
+}
+
+#heading2, #heading3, #heading4, #heading5{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+
+#desc2, #desc3, #desc4, #desc5{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.media2, .media3, .media4{
+    position: relative;
+}
+
+#Video1{
+    position: absolute;
+    left: 80px;
+    top: 90px;
+    z-index: -1;
+}
+
+.download{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    border: 2px solid rgb(72, 72, 72);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: black;
+    z-index: 10;
+    top : 325px;
+    left : 100px;
+}
+
+#img-download{
+    width: 70px;
+}
+
+#Video2{
+    position: absolute;
+    width: 450px;
+    left: 115px;
+    top: 50px;
+    z-index: -1;
+}
+
+#Devices{
+    width: 700px;
+}
+
+.part6{
+    height: 900px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom: #5b5b5b;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#heading6{
+    text-align: center;
+    font-size: 50px;
+    margin: 0.5;
+    font-weight: 900;
+}
+
+.collapsible {
+    background-color: rgb(37, 37, 37);
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.active, .collapsible:hover {
+    background-color: #363636;
+}
+
+.content {
+    padding:18px;
+    display: none;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: rgb(37, 37, 37);;
+    width: 67.8%;
+}
+
+.answer{
+    font-size: 25px;
+}
+
+#fa{
+    text-align: center;
+    font-size: 25px;
+}
+
+.part7{
+    height: 40vh;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    padding: 20px; 
+}
+
+table.tg {
+    border-collapse: separate;
+    border-spacing: 10px;
+    font-size: 20px;
+}
+
+table.tg td {
+    padding-left: 20px;
+    padding-right: 50px;  
+}
+
+table.tg td a {
+    color: #777; 
+}
+
+table.tg td a:hover {
+    text-decoration: underline;
+}
+
+hr{
+    height: 5px;
+    background-color: #4c4c4c;
+    border: none;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .part2, .part3, .part4, .part5 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    
+    .form {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .part2, .part3, .part4, .part5{
+        flex-direction: column;
+    }
+    #email {
+        width: 300px;
+    }
+    #text11 {
+        font-size: 40px;
+    }
+    #text21, #text22 {
+        font-size: 18px;
+    }
+    #get-started {
+        width: 130px;
+        background-position: 90px;
+    }
+    table.tg td {
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;  
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .part2, .part3, .part4, .part5 {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    #img-download {
+        width: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    #logo {
+        width: 130px;
+    }
+    #text11 {
+        font-size: 30px;
+    }
+    #text21, #text22 {
+        font-size: 16px;
+    }
+    #email {
+        width: 200px;
+    }
+    .collapsible {
+        font-size: 24px;
+        width: 90%;
+    }
+    .content {
+        width: 85%;
+    }
+    .table {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    table.tg {
+        font-size: 16px;
+    }
+    table.tg td {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+}
